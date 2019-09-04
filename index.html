@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <title>.....Das ultimative Helden Game...</title>
+</head>
+<body>
+    <!-----Here I have to put the correct Kapitel into Placeholder. f.e. Level 2 is an other Kapitel then Level 3 ------>
+    <h1>The ultimate Hero Game<span id="chapter"></span></h1>
+
+<!--------------Section für das aktuelle Level---------------------------------------------->
+
+<section>
+        <div>
+             <ul class="level"> 
+        <!---------DOM manipulation of the levels where the player is at the moment---------->
+                <li><b>Level: <span id="level">0</span></b></li>
+             </ul>
+        </div>
+    </section>
+
+
+    <!------------------Section für das BIld des Helden---------------------------------->
+    <section>
+    <!---Here the correct image must be uploaded, to change it to the corresponding level--------->
+<div id="hero-img"> <img src="./IMG/Hero/level__01.jfif" alt="The ultimate Hero"> </div>
+</section>
+
+    
+<!---------------Section für die Story Beschreibung--------------------------------------------->
+
+<section>
+    <div class="story">  <h2><u>Here is what the story is about:</u></h2>
+    <p id="story-text" class="dynstory"> <span id="geschichten"></span></p>
+    <!--DOM Manipulation ->insert the correct story hier which is eaqul to the corresponding level
+
+    -->
+    </div>
+</section>
+
+<!--------------Section für die Buttons---------------------------------------------->
+
+<section>
+    <div>
+         <ul class="buttons"> 
+            <li id="btn-AntwortA" class="AA"> Antwort A</li>
+            <li id="btn-AntwortB" class="AB"> Antwort B</li>
+            <li id="btn-AntwortC" class="AC"> Antwort C</li>
+            <li id="btn-AntwortD" class="AD"> Antwort D</li>
+         </ul>
+    </div>
+
+</section>
+
+
+<script src="./script.js"></script>
+</body>
+</html>

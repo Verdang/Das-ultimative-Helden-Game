@@ -1,0 +1,100 @@
+html {
+    background: url('./IMG/Backround/Backround.png') no-repeat;
+    background-size: cover;
+    font-family: fantasy,"Comic Sans MS","Century Gothic","Helvetica Neue", Arial, sans-serif;
+  }
+
+h1{
+font-size: 2.5rem;
+text-align: center;
+background-color: beige;
+}
+
+.dynstory{
+    font-size: 1.5rem;
+    position: fixed;
+    left: 650px;
+    top: 190px;
+    background: url('./IMG/dragon.jpg');
+    background-size: 140%;
+    background-repeat: no-repeat;
+    border: 4px;
+    border-style: solid;
+    height: 310px;
+    width: 400px;
+}
+
+h2{
+    margin: 0 1px 0 0;
+    font-size: 1.9rem;
+    position: fixed;
+    left: 650px;
+    top: 165px;
+    background-color: white;
+}
+img{
+    position: fixed;
+    left: 60px;
+    top: 100px;
+    image-orientation: from-image;
+    background-repeat: no-repeat;
+    border: 4px;
+    border-style: solid;
+    height: 400px;
+    width: 290px;
+}
+.level{
+    position: fixed;
+    left: 1080px;
+    top: 75px; 
+    list-style: none;
+    border: 4px;
+    border-color: black;
+    border-style: solid;
+    padding: 5px;
+    background-color: bisque;
+}
+.AA{
+    position: fixed;
+    left: 650px;
+    top: 600px;
+    list-style: none;
+    background-color: lightblue;
+    border: 4px;
+    border-color: black;
+    border-style: solid;
+    padding: 5px;
+}
+.AB{
+    position: fixed;
+    left: 750px;
+    top: 600px;
+    list-style: none;
+    background-color: lightblue;
+    border: 4px;
+    border-color: black;
+    border-style: solid;
+    padding: 5px;
+}
+.AC{
+    position: fixed;
+    left: 850px;
+    top: 600px;
+    list-style: none;
+    background-color: lightblue;
+    border: 4px;
+    border-color: black;
+    border-style: solid;
+    padding: 5px;
+}
+.AD{
+    position: fixed;
+    left: 950px;
+    top: 600px;
+    list-style: none;
+    background-color: lightblue;
+    border: 4px;
+    border-color: black;
+    border-style: solid;
+    padding: 5px;
+}
