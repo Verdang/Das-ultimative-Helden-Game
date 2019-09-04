@@ -1,5 +1,5 @@
 html {
-    background: url('./IMG/Backround/Backround.png') no-repeat;
+    background: url('IMG/Backround/Backround.png') no-repeat;
     background-size: cover;
     font-family: fantasy,"Comic Sans MS","Century Gothic","Helvetica Neue", Arial, sans-serif;
   }
@@ -11,7 +11,7 @@ background-color: beige;
 }
 
 .dynstory{
-    font-size: 1.5rem;
+    font-size: 1.0rem;
     position: fixed;
     left: 650px;
     top: 190px;
