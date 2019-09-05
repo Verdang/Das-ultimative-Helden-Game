@@ -11,12 +11,13 @@ background-color: beige;
 }
 
 .dynstory{
-    font-size: 1.0rem;
+    font-size: 1.1rem;
+    font-weight: 200;
     position: fixed;
     left: 650px;
     top: 190px;
-    background: url('./IMG/dragon.jpg');
-    background-size: 140%;
+    background: url('./IMG/001.jpg');
+    background-size: 100%;
     background-repeat: no-repeat;
     border: 4px;
     border-style: solid;
@@ -30,7 +31,7 @@ h2{
     position: fixed;
     left: 650px;
     top: 165px;
-    background-color: white;
+    background-color: lightblue;
 }
 img{
     position: fixed;
@@ -56,8 +57,8 @@ img{
 }
 .AA{
     position: fixed;
-    left: 650px;
-    top: 600px;
+    left: 720px;
+    top: 550px;
     list-style: none;
     background-color: lightblue;
     border: 4px;
@@ -67,7 +68,7 @@ img{
 }
 .AB{
     position: fixed;
-    left: 750px;
+    left: 720px;
     top: 600px;
     list-style: none;
     background-color: lightblue;
@@ -78,19 +79,8 @@ img{
 }
 .AC{
     position: fixed;
-    left: 850px;
-    top: 600px;
-    list-style: none;
-    background-color: lightblue;
-    border: 4px;
-    border-color: black;
-    border-style: solid;
-    padding: 5px;
-}
-.AD{
-    position: fixed;
-    left: 950px;
-    top: 600px;
+    left: 720px;
+    top: 650px;
     list-style: none;
     background-color: lightblue;
     border: 4px;
