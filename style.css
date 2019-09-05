@@ -28,6 +28,22 @@ z-index: 1;
     width: 400px;
     z-index: 1;
 }
+.startbox{
+    padding: 7px;
+    font-size: 1.25rem;
+    font-weight: 200;
+    position: fixed;
+    left: 735px;
+    top: 390px;
+    background: url('./IMG/001.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 4px;
+    border-style: solid;
+    height: 350px;
+    width: 400px;
+    z-index: 2;
+}
 
 h2{
     margin: 0 1px 0 0;
@@ -73,6 +89,15 @@ img{
     border-style: solid;
     padding: 5px;
     z-index: 1;
+}
+.AA:hover{
+    color: red;
+}
+.AB:hover{
+    color: red;
+}
+.AC:hover{
+    color: red;
 }
 .AB{
     position: fixed;
@@ -169,6 +194,7 @@ img{
     color: black;
     font-size: 20px;
     padding: 10px 50px;
+    z-index: 1;
 }
 
 .labelNick{
@@ -177,4 +203,5 @@ img{
     top: 260px;
     color: white;
     font-size: 20px;
+    z-index: 1;
 }  
