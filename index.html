@@ -11,9 +11,8 @@
 
 
         <div class="cover-start">
-                <input class="input" type="text" name="vorname" id="vorname">
-            <button class='startBtn' onclick="function event(event){document.getElementsByClassName('cover-start')[0].style.display = 'none'}; event(event)"><span>Start Game </span></button>
-            </div>
+           <button class='startBtn' onclick="function event(event){document.getElementsByClassName('cover-start')[0].style.display = 'none'}; event(event)"><span>Start Game </span></button>
+                    </div>
     <!-----Here I have to put the correct Kapitel into Placeholder. f.e. Level 2 is an other Kapitel then Level 3 ------>
     <h1>The ultimate Hero Game<span id="chapter"></span></h1>
 
@@ -34,7 +33,10 @@
     <!------------------Section für das BIld des Helden---------------------------------->
     <section>
     <!---Here the correct image must be uploaded, to change it to the corresponding level--------->
-<div> <img src="./IMG/Hero/level__01.jfif" id="hero-img" alt="The ultimate Hero"> </div>
+<div> 
+        <label for='vorname' class="labelNick">Dein Nick:</label>
+        <input class="input" type="text" name="vorname" id="vorname">
+    <img src="./IMG/Hero/level__01.jfif" id="hero-img" alt="The ultimate Hero"> </div>
 </section>
 
     
@@ -65,5 +67,6 @@
 <script src="data.js"></script>
 <script src="game.js"></script>
 <script src="script.js"></script>
+
 </body>
 </html>

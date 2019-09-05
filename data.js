@@ -1,9 +1,3 @@
-let PlaceHolder;
-
-// Function to get the Name from Player as a input for the story
-function getName(){
-    PlaceHolder = document.getElementsByClassName('input');
-    }
 
 let story = [
     { storyName: 'story-eins', soldierImg: 'anfang_01.jpg', chapter:'Der Anfang', story: `Es war einmal vor langer Zeit das der Ritter {PlaceHolder} durch die weiten Landen des Landes Bayern streifte. Er dachte an nicht viel, außer vielleicht an den VFL. Doch dann geschah es das er eine magische Waffe fand. Diese Waffe könnte sein armseliges leben für immer verändern. <br> <br> Was machte der Held {PlaceHolder}?`, antwortA:'Waffe nehmen', antwortB:'Waffe weg schmeißen', antwortC:'Erst mal ein Nickerchen machen', tot:'graveyard.jpg'},
@@ -28,3 +22,4 @@ let story = [
 
     { storyName: 'story-elf', soldierImg:'win.jfif', chapter:'ENDE', story: `ENDE`, win:'win.jfif'}
 ];
+

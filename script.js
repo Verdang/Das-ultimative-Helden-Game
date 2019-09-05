@@ -2,6 +2,15 @@ const newGame = new Game();
 
 storyTelling();
 
+// Hier wird der event gestartet was passiert wenn der Button START GAME geklickt wird!
+/*
+const startGame = document.getElementsByClassName('startBtn')[0];
+startGame.addEventListener('click', () => {
+    startGame.style.display = 'none'
+    let placeHolderB = document.getElementById('vorname').value;
+});
+*/
+
 // Hier wird der event gestartet was passiert wenn der Button AAAAAAA geklickt wird!
 const antwortA = document.getElementById('btn-AntwortA');
 //document.getElementById('btn-AntwortA').innerHTML = ` - ${newGame.antwortA}`

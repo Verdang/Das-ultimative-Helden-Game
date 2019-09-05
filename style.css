@@ -24,7 +24,7 @@ z-index: 1;
     background-repeat: no-repeat;
     border: 4px;
     border-style: solid;
-    height: 310px;
+    height: 350px;
     width: 400px;
     z-index: 1;
 }
@@ -41,13 +41,13 @@ h2{
 img{
     position: fixed;
     left: 60px;
-    top: 100px;
+    top: 170px;
     image-orientation: from-image;
     background-repeat: no-repeat;
     border: 4px;
     border-style: solid;
-    height: 400px;
-    width: 290px;
+    height: 650px;
+    width: 400px;
     z-index: 1;
 }
 .level{
@@ -65,7 +65,7 @@ img{
 .AA{
     position: fixed;
     left: 720px;
-    top: 550px;
+    top: 600px;
     list-style: none;
     background-color: lightblue;
     border: 4px;
@@ -77,7 +77,7 @@ img{
 .AB{
     position: fixed;
     left: 720px;
-    top: 600px;
+    top: 650px;
     list-style: none;
     background-color: lightblue;
     border: 4px;
@@ -89,7 +89,7 @@ img{
 .AC{
     position: fixed;
     left: 720px;
-    top: 650px;
+    top: 700px;
     list-style: none;
     background-color: lightblue;
     border: 4px;
@@ -114,6 +114,7 @@ img{
     position: fixed;
     z-index: 0;
 }
+
 .startBtn {
     display: inline-block;
     border-radius: 4px;
@@ -128,7 +129,7 @@ img{
     cursor: pointer;
     margin: 5px;
     position: fixed;
-    left: 520px;
+    left: 820px;
     top: 300px;
   }
   
@@ -136,7 +137,7 @@ img{
     cursor: pointer;
     display: inline-block;
     position: relative;
-    transition: 0.5s;
+    transition: 1.6s;
   }
   
   .startBtn span:after {
@@ -145,7 +146,7 @@ img{
     opacity: 0;
     top: 0;
     right: -20px;
-    transition: 0.5s;
+    transition: 0.7s;
   }
   
   .startBtn:hover span {
@@ -156,10 +157,11 @@ img{
     opacity: 1;
     right: 0;
   }
+
 .input{
     position: fixed;
-    left: 520px;
-    top: 240px;
+    left: 60px;
+    top: 100px;
     background-color: lightblue;
     border: 4px;
     border-color: black;
@@ -168,3 +170,11 @@ img{
     font-size: 20px;
     padding: 10px 50px;
 }
+
+.labelNick{
+    position: fixed;
+    left: 202px;
+    top: 260px;
+    color: white;
+    font-size: 20px;
+}  
