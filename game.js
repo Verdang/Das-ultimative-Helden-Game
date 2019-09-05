@@ -18,10 +18,9 @@ class Game {
         this.antwortC = story[this.level].antwortC;
     }
     wrongAnswer = () => {
-        window.open('loose.html');
+        this.soldierImg = story[1].tot;
         }
     tryAgain =() => {
-        console.log("tryAgain Button")
-        return;
+        this.soldierImg = story[1].tryAgain;
         }
 }

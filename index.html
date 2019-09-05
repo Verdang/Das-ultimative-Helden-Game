@@ -8,6 +8,12 @@
     <title>.....Das ultimative Helden Game...</title>
 </head>
 <body>
+
+
+        <div class="cover-start">
+                <input class="input" type="text" name="vorname" id="vorname">
+            <button class='startBtn' onclick="function event(event){document.getElementsByClassName('cover-start')[0].style.display = 'none'}; event(event)"><span>Start Game </span></button>
+            </div>
     <!-----Here I have to put the correct Kapitel into Placeholder. f.e. Level 2 is an other Kapitel then Level 3 ------>
     <h1>The ultimate Hero Game<span id="chapter"></span></h1>
 
@@ -18,7 +24,7 @@
              <ul class="level"> 
         <!---------DOM manipulation of the levels where the player is at the moment---------->
                 <li><b>Level: <span id="level">0</span></b></li>
-            <li>   <input type="text" name="vorname" id="vorname"></li> 
+            
             </ul>     
              
         </div>

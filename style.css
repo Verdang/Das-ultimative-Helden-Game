@@ -2,16 +2,19 @@ html {
     background: url('IMG/Backround/Backround.png') no-repeat;
     background-size: cover;
     font-family: fantasy,"Comic Sans MS","Century Gothic","Helvetica Neue", Arial, sans-serif;
+    z-index: 1;
   }
 
 h1{
 font-size: 2.5rem;
 text-align: center;
 background-color: beige;
+z-index: 1;
 }
 
 .dynstory{
-    font-size: 1.1rem;
+    padding: 7px;
+    font-size: 1.25rem;
     font-weight: 200;
     position: fixed;
     left: 650px;
@@ -23,6 +26,7 @@ background-color: beige;
     border-style: solid;
     height: 310px;
     width: 400px;
+    z-index: 1;
 }
 
 h2{
@@ -32,6 +36,7 @@ h2{
     left: 650px;
     top: 165px;
     background-color: lightblue;
+    z-index: 1;
 }
 img{
     position: fixed;
@@ -43,6 +48,7 @@ img{
     border-style: solid;
     height: 400px;
     width: 290px;
+    z-index: 1;
 }
 .level{
     position: fixed;
@@ -54,6 +60,7 @@ img{
     border-style: solid;
     padding: 5px;
     background-color: bisque;
+    z-index: 1;
 }
 .AA{
     position: fixed;
@@ -65,6 +72,7 @@ img{
     border-color: black;
     border-style: solid;
     padding: 5px;
+    z-index: 1;
 }
 .AB{
     position: fixed;
@@ -76,6 +84,7 @@ img{
     border-color: black;
     border-style: solid;
     padding: 5px;
+    z-index: 1;
 }
 .AC{
     position: fixed;
@@ -87,4 +96,75 @@ img{
     border-color: black;
     border-style: solid;
     padding: 5px;
+    z-index: 1;
+}
+.cover-start{
+    background: url('IMG/Backround/Backround.png');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    position: fixed;
+    z-index: 2;
+}
+.cover-end{
+    background: url('IMG/Backround/Backround.png');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    position: fixed;
+    z-index: 0;
+}
+.startBtn {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: lightblue;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 250px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    position: fixed;
+    left: 520px;
+    top: 300px;
+  }
+  
+  .startBtn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .startBtn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .startBtn:hover span {
+    padding-right: 25px;
+  }
+  
+  .startBtn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+.input{
+    position: fixed;
+    left: 520px;
+    top: 240px;
+    background-color: lightblue;
+    border: 4px;
+    border-color: black;
+    border-style: solid;
+    color: black;
+    font-size: 20px;
+    padding: 10px 50px;
 }
