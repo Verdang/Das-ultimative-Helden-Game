@@ -17,7 +17,7 @@ z-index: 1;
     font-size: 1.25rem;
     font-weight: 200;
     position: fixed;
-    left: 650px;
+    left: 644px;
     top: 190px;
     background: url('./IMG/001.jpg');
     background-size: 100%;
@@ -200,7 +200,7 @@ img{
 .labelNick{
     position: fixed;
     left: 202px;
-    top: 260px;
+    top: 77px;
     color: white;
     font-size: 20px;
     z-index: 1;
