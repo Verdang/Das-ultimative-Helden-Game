@@ -4,28 +4,31 @@
 document.getElementById('startbox').innerHTML = "intro.intro";
 */
 
+
 const newGame = new Game();
 let placeHolderB = document.getElementById('vorname').value;
 storyTelling();
 
+
+
 // Hier wird der event gestartet was passiert wenn der Button AAAAAAA geklickt wird!
 const antwortA = document.getElementById('btn-AntwortA');
 antwortA.addEventListener('click', ()  => {
-    newGame.nextLevel();
+    newGame.randomiser[0]();
     storyTelling();
 });
 
 // Hier wird der event gestartet was passiert wenn der Button BBBBBBB geklickt wird!
 const antwortB = document.getElementById('btn-AntwortB');
 antwortB.addEventListener('click', ()  => {
-    newGame.wrongAnswer();
+    newGame.randomiser[1]();
     storyTelling();
 });
 
 // Hier wird der event gestartet was passiert wenn der Button CCCCCCC geklickt wird!
 const antwortC = document.getElementById('btn-AntwortC');
 antwortC.addEventListener('click', ()  => {
-    newGame.tryAgain();
+    newGame.randomiser[2]();
     storyTelling();
 });
 
@@ -43,3 +46,4 @@ function storyTelling(){
     } else
     document.getElementById('hero-img').src = `IMG/graveyard.jpg`;
 }
+
