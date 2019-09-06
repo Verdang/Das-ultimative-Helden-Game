@@ -1,17 +1,9 @@
-/*let intro = [{
-    intro =" BLA BLA BLA..."
-}]
-document.getElementById('startbox').innerHTML = "intro.intro";
-*/
-
 
 const newGame = new Game();
-let placeHolderB = document.getElementById('vorname').value;
+
 storyTelling();
-
-
-
 // Hier wird der event gestartet was passiert wenn der Button AAAAAAA geklickt wird!
+// durch den randomizer wird die Position des Button angepasst-
 const antwortA = document.getElementById('btn-AntwortA');
 antwortA.addEventListener('click', ()  => {
     newGame.randomiser[0]();
@@ -19,6 +11,7 @@ antwortA.addEventListener('click', ()  => {
 });
 
 // Hier wird der event gestartet was passiert wenn der Button BBBBBBB geklickt wird!
+// durch den randomizer wird die Position des Button angepasst-
 const antwortB = document.getElementById('btn-AntwortB');
 antwortB.addEventListener('click', ()  => {
     newGame.randomiser[1]();
@@ -26,6 +19,7 @@ antwortB.addEventListener('click', ()  => {
 });
 
 // Hier wird der event gestartet was passiert wenn der Button CCCCCCC geklickt wird!
+// durch den randomizer wird die Position des Button angepasst-
 const antwortC = document.getElementById('btn-AntwortC');
 antwortC.addEventListener('click', ()  => {
     newGame.randomiser[2]();

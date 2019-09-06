@@ -182,26 +182,3 @@ img{
     opacity: 1;
     right: 0;
   }
-
-.input{
-    position: fixed;
-    left: 60px;
-    top: 100px;
-    background-color: lightblue;
-    border: 4px;
-    border-color: black;
-    border-style: solid;
-    color: black;
-    font-size: 20px;
-    padding: 10px 50px;
-    z-index: 1;
-}
-
-.labelNick{
-    position: fixed;
-    left: 202px;
-    top: 77px;
-    color: white;
-    font-size: 20px;
-    z-index: 1;
-}  

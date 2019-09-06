@@ -25,7 +25,6 @@ class Game {
         this.antwortC = randomizedArr[0][2];
         this.randomiser = randomizedArr[1];
     }
-
     randomizeItems(items)
 //Funktion um 2 Arrays zu erstellen in dem einmal der Button random gespeichert ist
 // und zum anderen der Index gleich random abgespeichert wird.
@@ -49,7 +48,6 @@ class Game {
         }
         return [cached, randomiser];
     }
-
     wrongAnswer = () => {
         this.soldierImg = story[1].tot;
         }
