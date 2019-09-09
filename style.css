@@ -9,6 +9,7 @@ h1{
 font-size: 2.5rem;
 text-align: center;
 background-color: beige;
+size: 60%;
 z-index: 1;
 }
 
@@ -123,6 +124,21 @@ img{
     padding: 5px;
     z-index: 1;
 }
+.reset{
+    position: fixed;
+    left: 720px;
+    top: 750px;
+    list-style: none;
+    background-color: red;
+    border: 4px;
+    border-color: black;
+    border-style: solid;
+    padding: 5px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    z-index: 1;
+}
 .cover-start{
     background: url('IMG/Backround/Backround.png');
     height: 100%;
@@ -164,7 +180,13 @@ img{
     position: relative;
     transition: 1.6s;
   }
-  
+  .btn-reset span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 1.6s;
+  }
+
   .startBtn span:after {
     content: '\00bb';
     position: absolute;

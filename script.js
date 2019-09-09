@@ -24,7 +24,15 @@ const antwortC = document.getElementById('btn-AntwortC');
 antwortC.addEventListener('click', ()  => {
     newGame.randomiser[2]();
     storyTelling();
+
 });
+
+// Hier wird der Reset-Button aufgerufen um das Spiel neu zu laden
+const btnReset = document.getElementById('btn-reset');
+btnReset.addEventListener('click', function reloadPage(Game) {
+    location.reload(true)
+    });
+
 
 function storyTelling(){
     if (newGame.level < 10){
@@ -35,9 +43,19 @@ function storyTelling(){
     document.getElementById('btn-AntwortA').innerHTML = newGame.antwortA;
     document.getElementById('btn-AntwortB').innerHTML = newGame.antwortB;
     document.getElementById('btn-AntwortC').innerHTML = newGame.antwortC;
-    } else if (newGame.level = 10){
+    } 
+    else if (newGame.level === 10){
     document.getElementById('hero-img').src = `IMG/${newGame.soldierImg}`;
-    } else
+    document.getElementById('btn-AntwortA').innerHTML = null;
+    document.getElementById('btn-AntwortB').innerHTML = null;
+    document.getElementById('btn-AntwortC').innerHTML = null;
+    } 
+    else if(newGame.level > 10){
+    document.getElementById('btn-AntwortA').innerHTML = null;
+    document.getElementById('btn-AntwortB').innerHTML = null;
+    document.getElementById('btn-AntwortC').innerHTML = null; 
+      
+    }else
     document.getElementById('hero-img').src = `IMG/graveyard.jpg`;
 }
 

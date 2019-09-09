@@ -28,7 +28,6 @@ class Game {
     randomizeItems(items)
 //Funktion um 2 Arrays zu erstellen in dem einmal der Button random gespeichert ist
 // und zum anderen der Index gleich random abgespeichert wird.
-
     {
         let cached , temp, i, rand;
         cached = items.slice(0);
@@ -44,7 +43,6 @@ class Game {
             temp = randomiser[rand];
             randomiser[rand] = randomiser[i];
             randomiser[i] = temp;
-
         }
         return [cached, randomiser];
     }
@@ -54,4 +52,7 @@ class Game {
     tryAgain =() => {
         this.soldierImg = story[1].tryAgain;
         }
+    
 }
+
+
