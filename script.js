@@ -44,13 +44,11 @@ function storyTelling(){
     } 
     else if (newGame.level === 10){
     document.getElementById('hero-img').src = `IMG/Hero/${newGame.soldierImg}`;
-    document.getElementById('btnDiv').innerHTML.empty;
+    document.getElementById('btnDiv').innerHTML = "";
     
     } 
     else if(newGame.level > 10){
-    document.getElementById('btn-AntwortA').innerHTML = newGame.antwortA;
-    document.getElementById('btn-AntwortB').innerHTML = newGame.antwortB;
-    document.getElementById('btn-AntwortC').innerHTML = newGame.antwortC;
+    document.getElementById('btnDiv').innerHTML = "";
       
     }else
     document.getElementById('hero-img').src = `IMG/graveyard.jpg`;
