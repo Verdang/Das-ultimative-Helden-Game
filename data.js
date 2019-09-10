@@ -18,8 +18,8 @@ let story = [
 
     { storyName: 'story-neun', soldierImg: 'level__09.jfif', chapter:'Der Weg nach Hause', story: `Es bahnte sich ein sehr beschwerlicher Weg nach Hause an, so hatte er doch "leicht fertig" der Prinzessin den Kopf des Drachen versprochen. Hätte er gewusst das der Kopf fast ne Tonne wiegt hätte er sein vorlautes Maul gehalten. Aber was macht man als Held nicht alles für seine holde... ;-)`, antwortA:'...Kopf mitbringen', antwortB:'...Luis Vuitton Tasche kaufen', antwortC:'...Eine schlaf Mütze kaufen', tot: 'graveyard.jpg'},
 
-    { storyName: 'story-zehn', soldierImg: 'highest_level.jpg', chapter:'Die schöne Prinzessin', story: `Die Prinzessin rastete förmlich aus als sie den Kopf sah. Sie war so fröhlich das sie ganz spontan ein dickes Fest für alle Anwohner der Burg veranstaltet. Selbstverständlich nahm sie alle Getränke und das Buffet auf Ihren Nacken! Die Bewohner feierten Sie und den Helden >Kunibert< bis in frühen Morgenstunden, zu den fetten Beats von BustaRhymes. Nach dem ordentlichen Kater den alle hatten wurde selbstverständlich 2 Tage nach dem Gelage geheiratet... - ENDE - `, win:'win.jfif', antwortA:'...go and have fun withe the kittens...'},
+    { storyName: 'story-zehn', soldierImg: 'highest_level.jpg', chapter:'Die schöne Prinzessin', story: `Die Prinzessin rastete förmlich aus als sie den Kopf sah. Sie war so fröhlich das sie ganz spontan ein dickes Fest für alle Anwohner der Burg veranstaltet. Selbstverständlich nahm sie alle Getränke und das Buffet auf Ihren Nacken! Die Bewohner feierten Sie und den Helden >Kunibert< bis in frühen Morgenstunden, zu den fetten Beats von BustaRhymes. Nach dem ordentlichen Kater den alle hatten wurde selbstverständlich 2 Tage nach dem Gelage geheiratet... - ENDE - `, win:'win.jfif', antwortA:'...go and have fun withe the kittens...', antwortB:'B',antwortC:'C' },
 
-    { storyName: 'story-elf', soldierImg:'win.jfif', chapter:'ENDE', story: `ENDE`, win:'win.jfif'}
+    { storyName: 'story-elf', soldierImg:'win.jfif', chapter:'ENDE', story: `ENDE`, win:'win.jfif', antwortA:'ENDE'}
 ];
 

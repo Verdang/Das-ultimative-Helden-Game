@@ -4,11 +4,14 @@ const newGame = new Game();
 storyTelling();
 // Hier wird der event gestartet was passiert wenn der Button AAAAAAA geklickt wird!
 // durch den randomizer wird die Position des Button angepasst-
+
 const antwortA = document.getElementById('btn-AntwortA');
 antwortA.addEventListener('click', ()  => {
     newGame.randomiser[0]();
+    console.log(`${antwortA}`)
     storyTelling();
 });
+
 
 // Hier wird der event gestartet was passiert wenn der Button BBBBBBB geklickt wird!
 // durch den randomizer wird die Position des Button angepasst-
@@ -33,6 +36,13 @@ btnReset.addEventListener('click', function reloadPage(Game) {
     });
 
 function storyTelling(){
+    if (newGame.antwortA === 'ENDE' || 
+        newGame.antwortB === 'ENDE' || 
+        newGame.antwortC === 'ENDE' )
+        {
+    document.getElementById('btnDiv').innerHTML = "";
+    }
+    
     if (newGame.level < 10){
     document.getElementById('level').innerHTML = newGame.level;
     document.getElementById('chapter').innerHTML = ` - ${newGame.chapter}`;
@@ -45,12 +55,7 @@ function storyTelling(){
     else if (newGame.level === 10){
     document.getElementById('hero-img').src = `IMG/Hero/${newGame.soldierImg}`;
     document.getElementById('btnDiv').innerHTML = "";
-    
     } 
-    else if(newGame.level > 10){
+    else
     document.getElementById('btnDiv').innerHTML = "";
-      
-    }else
-    document.getElementById('hero-img').src = `IMG/graveyard.jpg`;
 }
-
