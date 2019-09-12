@@ -48,6 +48,7 @@ class Game {
     }
     wrongAnswer = () => {
         this.soldierImg = story[1].tot;
+        document.getElementById('btnDiv').innerHTML = "";
         }
     tryAgain =() => {
         this.soldierImg = story[1].tryAgain;

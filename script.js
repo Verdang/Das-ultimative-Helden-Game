@@ -43,6 +43,11 @@ function storyTelling(){
     document.getElementById('btnDiv').innerHTML = "";
     }
     
+    /*
+    if (document.getElementById('hero-img').src= `IMG//${newGame.graveyard}`){
+    document.getElementById('btnDiv').innerHTML = "";
+    }
+*/
     if (newGame.level < 10){
     document.getElementById('level').innerHTML = newGame.level;
     document.getElementById('chapter').innerHTML = ` - ${newGame.chapter}`;
@@ -59,3 +64,11 @@ function storyTelling(){
     else
     document.getElementById('btnDiv').innerHTML = "";
 }
+
+// Kittens
+/*
+const kittens = document.getElementsByClassName('level');
+kittens.addEventListener('click', () => {
+    document.getElementById('hero-img').src = `IMG/Hero/${newGame.win}`;
+    });
+    */
