@@ -12,7 +12,6 @@ antwortA.addEventListener('click', ()  => {
     storyTelling();
 });
 
-
 // Hier wird der event gestartet was passiert wenn der Button BBBBBBB geklickt wird!
 // durch den randomizer wird die Position des Button angepasst-
 const antwortB = document.getElementById('btn-AntwortB');
@@ -42,12 +41,6 @@ function storyTelling(){
         {
     document.getElementById('btnDiv').innerHTML = "";
     }
-    
-    /*
-    if (document.getElementById('hero-img').src= `IMG//${newGame.graveyard}`){
-    document.getElementById('btnDiv').innerHTML = "";
-    }
-*/
     if (newGame.level < 10){
     document.getElementById('level').innerHTML = newGame.level;
     document.getElementById('chapter').innerHTML = ` - ${newGame.chapter}`;
@@ -65,10 +58,3 @@ function storyTelling(){
     document.getElementById('btnDiv').innerHTML = "";
 }
 
-// Kittens
-/*
-const kittens = document.getElementsByClassName('level');
-kittens.addEventListener('click', () => {
-    document.getElementById('hero-img').src = `IMG/Hero/${newGame.win}`;
-    });
-    */

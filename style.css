@@ -19,7 +19,7 @@ z-index: 1;
     font-weight: 200;
     position: fixed;
     left: 644px;
-    top: 190px;
+    top: 150px;
     background: url('./IMG/001.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
@@ -34,8 +34,8 @@ z-index: 1;
     font-size: 1.25rem;
     font-weight: 200;
     position: fixed;
-    left: 735px;
-    top: 390px;
+    left: 660px;
+    top: 310px;
     background: url('./IMG/001.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
@@ -51,14 +51,14 @@ h2{
     font-size: 1.9rem;
     position: fixed;
     left: 650px;
-    top: 165px;
+    top: 125px;
     background-color: lightblue;
     z-index: 1;
 }
 img{
     position: fixed;
     left: 60px;
-    top: 170px;
+    top: 100px;
     image-orientation: from-image;
     background-repeat: no-repeat;
     border: 4px;
@@ -69,7 +69,7 @@ img{
 }
 .level{
     position: fixed;
-    left: 1080px;
+    left: 1060px;
     top: 75px; 
     list-style: none;
     border: 4px;
@@ -82,7 +82,7 @@ img{
 .AA{
     position: fixed;
     left: 720px;
-    top: 600px;
+    top: 550px;
     list-style: none;
     background-color: lightblue;
     border: 4px;
@@ -104,7 +104,7 @@ img{
 .AB{
     position: fixed;
     left: 720px;
-    top: 650px;
+    top: 591px;
     list-style: none;
     background-color: lightblue;
     border: 4px;
@@ -117,7 +117,7 @@ img{
 .AC{
     position: fixed;
     left: 720px;
-    top: 700px;
+    top: 632px;
     list-style: none;
     background-color: lightblue;
     border: 4px;
@@ -130,7 +130,7 @@ img{
 .reset{
     position: fixed;
     left: 720px;
-    top: 750px;
+    top: 673px;
     list-style: none;
     background-color: red;
     border: 4px;
@@ -172,8 +172,8 @@ img{
     cursor: pointer;
     margin: 5px;
     position: fixed;
-    left: 820px;
-    top: 300px;
+    left: 740px;
+    top: 200px;
   }
   
   .startBtn span {
