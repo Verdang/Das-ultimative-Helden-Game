@@ -53,7 +53,6 @@ class Game {
     tryAgain =() => {
         this.soldierImg = story[1].tryAgain;
         }
-    
 }
 
 

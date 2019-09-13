@@ -8,7 +8,6 @@ storyTelling();
 const antwortA = document.getElementById('btn-AntwortA');
 antwortA.addEventListener('click', ()  => {
     newGame.randomiser[0]();
-    console.log(`${antwortA}`)
     storyTelling();
 });
 
@@ -33,6 +32,11 @@ const btnReset = document.getElementById('btn-reset');
 btnReset.addEventListener('click', function reloadPage(Game) {
     location.reload(true)
     });
+
+    function kitty() {
+       document.getElementById('hero-img').src = 'IMG/Hero/win.jpg';
+       
+    }
 
 function storyTelling(){
     if (newGame.antwortA === 'ENDE' || 
